@@ -29,6 +29,10 @@ Our web application helps user to find an available car as an owner, join an ope
 
 11.As a sharer, he could only view the sharer request. If he wants to view the owner request, he needs to go back to home page and clicked the “as a owner” and view all history  	  2020/02/03
 
-12. if different drivers try to confirm the same open ride at the same time point, it will result in data race.      2020/02/04
+12. if different drivers try to confirm the same open ride at the same time point, it will result in data race.      2020/02/03
 
-13. User cannot cancel the order if they don't want to create the request.
+13. Sharer cannot cancel the order they join if they don't want to create the request.      2020/02/04
+
+14. If driver confirms the order, order cannot be modified, such as sharer cannot quit the order, owner cannot cancel the order and driver cannot cancel the order.     2020/02/04
+
+15. If the order is open and owner cancels the order, the sharer in this order cannot view the order.   2020/02/05
